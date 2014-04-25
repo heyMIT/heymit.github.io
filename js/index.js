@@ -56,7 +56,7 @@ function adjustBG() {
   if($(window).width() < 1.36824324 * $(window).height()) {
     $("body").css({
       "background-size" : "auto 100%",
-      "background-position-x" : "center"
+      "background-position" : "center"
     });
   } else {
     $("body").css("background-size", "");
